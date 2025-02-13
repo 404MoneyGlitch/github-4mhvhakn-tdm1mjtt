@@ -220,87 +220,225 @@ function App() {
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Services</h2>
             <p className="text-gray-600 text-lg">
-              Comprehensive eco-friendly cleaning solutions tailored to your needs. We combine cutting-edge 
-              green technology with traditional cleaning expertise.
+              Professional cleaning solutions tailored to your needs, with a focus on eco-friendly practices 
+              and exceptional results.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105 duration-300">
-              <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Home className="h-8 w-8 text-green-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Residential Cleaning</h3>
-              <p className="text-gray-600">
-                Comprehensive home cleaning services using eco-friendly products and methods.
-              </p>
-            </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105 duration-300">
               <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <Building2 className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Commercial Cleaning</h3>
+              <h3 className="text-xl font-semibold mb-3">Entretien des locaux commerciaux et bureaux</h3>
               <p className="text-gray-600">
-                Professional cleaning solutions for offices and commercial spaces.
+                Professional cleaning services for commercial spaces and offices, ensuring a pristine work environment.
               </p>
+              <img 
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=600"
+                alt="Commercial cleaning"
+                className="mt-4 rounded-lg w-full h-48 object-cover"
+              />
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105 duration-300">
               <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <Sofa className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Furniture Cleaning</h3>
+              <h3 className="text-xl font-semibold mb-3">Nettoyage canapé et tapis</h3>
               <p className="text-gray-600">
-                Gentle yet effective furniture cleaning that extends the life of your belongings.
+                Deep cleaning services for sofas and carpets, restoring their beauty and freshness.
               </p>
+              <img 
+                src="https://images.unsplash.com/photo-1558384195-103f1c8ad60e?auto=format&fit=crop&q=80&w=600"
+                alt="Sofa cleaning"
+                className="mt-4 rounded-lg w-full h-48 object-cover"
+              />
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105 duration-300">
               <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Car className="h-8 w-8 text-green-600" />
+                <Boxes className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Vehicle Cleaning</h3>
+              <h3 className="text-xl font-semibold mb-3">Nettoyage après déménagement</h3>
               <p className="text-gray-600">
-                Eco-friendly car cleaning and detailing services.
+                Thorough cleaning services after moving, ensuring the space is ready for new occupants.
               </p>
+              <img 
+                src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&q=80&w=600"
+                alt="Move-out cleaning"
+                className="mt-4 rounded-lg w-full h-48 object-cover"
+              />
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105 duration-300">
               <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Warehouse className="h-8 w-8 text-green-600" />
+                <Home className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Industrial Cleaning</h3>
+              <h3 className="text-xl font-semibold mb-3">Ménage à domicile</h3>
               <p className="text-gray-600">
-                Heavy-duty cleaning solutions for industrial facilities.
+                Regular home cleaning services tailored to your specific needs and schedule.
               </p>
+              <img 
+                src="https://images.unsplash.com/photo-1527515545081-5db817172677?auto=format&fit=crop&q=80&w=600"
+                alt="Home cleaning"
+                className="mt-4 rounded-lg w-full h-48 object-cover"
+              />
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105 duration-300">
               <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Sparkles className="h-8 w-8 text-green-600" />
+                <Construction className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Deep Cleaning</h3>
+              <h3 className="text-xl font-semibold mb-3">Nettoyage après travaux et dégâts des eaux</h3>
               <p className="text-gray-600">
-                Thorough deep cleaning services for a complete refresh.
+                Specialized cleaning services after construction work or water damage.
               </p>
+              <img 
+                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&q=80&w=600"
+                alt="Post-construction cleaning"
+                className="mt-4 rounded-lg w-full h-48 object-cover"
+              />
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105 duration-300">
               <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Droplets className="h-8 w-8 text-green-600" />
+                <PartyPopper className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Window Cleaning</h3>
+              <h3 className="text-xl font-semibold mb-3">Nettoyage après évenements</h3>
               <p className="text-gray-600">
-                Professional window cleaning for crystal clear views.
+                Professional cleaning services after events and parties.
               </p>
+              <img 
+                src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=600"
+                alt="Event cleaning"
+                className="mt-4 rounded-lg w-full h-48 object-cover"
+              />
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105 duration-300">
               <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
-                <Leaf className="h-8 w-8 text-green-600" />
+                <Building className="h-8 w-8 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Green Consulting</h3>
+              <h3 className="text-xl font-semibold mb-3">Nettoyage Co-propriété</h3>
               <p className="text-gray-600">
-                Expert advice on maintaining an eco-friendly environment.
+                Regular cleaning services for common areas in residential buildings.
               </p>
+              <img 
+                src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&q=80&w=600"
+                alt="Co-property cleaning"
+                className="mt-4 rounded-lg w-full h-48 object-cover"
+              />
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-all hover:scale-105 duration-300">
+              <div className="bg-green-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+                <Building2 className="h-8 w-8 text-green-600" />
+              </div>
+              <h3 className="text-xl font-semibold mb-3">Entretien de propriétés privées</h3>
+              <p className="text-gray-600">
+                Comprehensive cleaning services for private properties and estates.
+              </p>
+              <img 
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=600"
+                alt="Private property maintenance"
+                className="mt-4 rounded-lg w-full h-48 object-cover"
+              />
             </div>
           </div>
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section id="contact" className="py-20 bg-gradient-to-br from-white to-green-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+              <div className="grid md:grid-cols-2">
+                <div className="p-12 bg-gradient-to-br from-green-600 to-green-700">
+                  <h2 className="text-3xl font-bold text-white mb-6">Get in Touch</h2>
+                  <p className="text-green-100 mb-8">
+                    Ready to experience the difference of eco-friendly cleaning? Contact us today 
+                    for a free consultation and quote.
+                  </p>
+                  <div className="space-y-6">
+                    <div className="flex items-center space-x-4">
+                      <div className="bg-green-500/50 p-3 rounded-full">
+                        <Phone className="text-white h-6 w-6" />
+                      </div>
+                      <span className="text-white">+1 (555) 123-4567</span>
+                    </div>
+                    <div className="flex items-center space-x-4">
+                      <div className="bg-green-500/50 p-3 rounded-full">
+                        <Mail className="text-white h-6 w-6" />
+                      </div>
+                      <span className="text-white">contact@masterpropre.com</span>
+                    </div>
+                    <div className="flex items-center space-x-4">
+                      <div className="bg-green-500/50 p-3 rounded-full">
+                        <MapPin className="text-white h-6 w-6" />
+                      </div>
+                      <span className="text-white">123 Eco Street, Green City, 12345</span>
+                    </div>
+                  </div>
+                  <div className="mt-12">
+                    <h3 className="text-white font-semibold mb-4">Follow Us</h3>
+                    <div className="flex space-x-4">
+                      <a href="#" className="bg-green-500/50 p-3 rounded-full hover:bg-green-400 transition-colors">
+                        <Instagram className="h-5 w-5 text-white" />
+                      </a>
+                      <a href="#" className="bg-green-500/50 p-3 rounded-full hover:bg-green-400 transition-colors">
+                        <Facebook className="h-5 w-5 text-white" />
+                      </a>
+                      <a href="#" className="bg-green-500/50 p-3 rounded-full hover:bg-green-400 transition-colors">
+                        <Twitter className="h-5 w-5 text-white" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="p-12">
+                  <form className="space-y-6">
+                    <div>
+                      <label className="block text-gray-700 font-medium mb-2">Your Name</label>
+                      <input
+                        type="text"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent"
+                        placeholder="John Doe"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-gray-700 font-medium mb-2">Your Email</label>
+                      <input
+                        type="email"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent"
+                        placeholder="john@example.com"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-gray-700 font-medium mb-2">Service Needed</label>
+                      <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent">
+                        <option>Select a service</option>
+                        <option>Entretien des locaux commerciaux et bureaux</option>
+                        <option>Nettoyage canapé et tapis</option>
+                        <option>Nettoyage après déménagement</option>
+                        <option>Ménage à domicile</option>
+                        <option>Nettoyage après travaux et dégâts des eaux</option>
+                        <option>Nettoyage après évenements</option>
+                        <option>Nettoyage Co-propriété</option>
+                        <option>Entretien de propriétés privées</option>
+                      </select>
+                    </div>
+                    <div>
+                      <label className="block text-gray-700 font-medium mb-2">Your Message</label>
+                      <textarea
+                        rows={4}
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-600 focus:border-transparent"
+                        placeholder="Tell us about your cleaning needs..."
+                      ></textarea>
+                    </div>
+                    <button className="w-full bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-all transform hover:scale-105 duration-200 shadow-lg">
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
       {/* Why Choose Us Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
